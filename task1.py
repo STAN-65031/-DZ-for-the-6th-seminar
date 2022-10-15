@@ -45,4 +45,6 @@ print(used_list)
 result = finds_numbers(used_list)
 print(result)
 
+res = [used_list[i] for i in range(len(used_list)) if used_list[i-1] < used_list[i]]
+print(res)
 
